@@ -1,0 +1,37 @@
+.panel {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .panel-header {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+
+  }
+  
+  .panel-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+
+
+  .panel-footer {
+    padding: .5rem 1rem;
+    background-color: rgba(0, 0, 0, .03);
+    border-top: 1px solid rgba(0, 0, 0, .125);
+
+  }
+  
+  .panel-danger {
+    border-color: red;
+  }
+
+  .panel-primary {
+    border-color: blue;
+    background-color: #cce5ff;
+  }
+
